@@ -62,4 +62,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm start && npm wait-on --timeout 60000
+      - run: npm dev && npm wait-on --timeout 60000
